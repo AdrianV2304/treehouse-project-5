@@ -1,0 +1,38 @@
+* {
+	box-sizing: border-box;
+}
+
+body {
+  width: 1000px;
+  margin: 0 auto;
+	font-size: 1.4em;
+	font-family: 'Varela Round', sans-serif;
+  font-weight: bold;
+	color: #6e859c;
+}
+
+.search input{
+  display: block;
+  width: 600px;
+  height: 40px;
+  margin: 30px auto;
+  padding: 0px 10px;
+  border-radius: 5px;
+  border-color: #ddd;
+}
+
+.item {
+  width: 100%;
+}
+
+.container {
+  margin: 20px 20px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr; 
+  grid-template-rows: 1fr 1fr 1fr; 
+  gap: 30px 30px; 
+  grid-template-areas: 
+    ". . . ."
+    ". . . ."
+    ". . . ."; 
+}
